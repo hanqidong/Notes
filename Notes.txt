@@ -59,3 +59,17 @@ $git commit -m "modified Notes.txt"
 git log 查看版本的历史记录，即可看到修改的过的历史记录，及历史说明。
 $ git log --pretty=oneline  只显示一行
 测试
+ rm test1.txt 删除文件
+    git checkout -- test1.txt 回滚
+    git rm test1.txt 确认删除
+git branch -a 查看分支
+    git branch XXX 创造名为XXX的分支
+    git checkout XXX    切换到名为XXX的分支
+工作区 版本库 流程
+    暂存区 stage 代码 
+        add后 修改以 暂存形式 存在在 暂存区 中 不加入分支
+        commit 提交后进入 版本库
+
+
+
+    
