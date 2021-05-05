@@ -1,0 +1,16 @@
+命令git init
+输出initialized empty Git repository in /
+
+示例
+错误案例
+"
+$ git init E:\codefield\Python\.Pycharm\notes
+Initialized empty Git repository in E:/codefieldPython.Pycharmnotes/.git/
+"
+正确案例
+"
+$ git init E:codefield/Python/.Pycharm/notes
+Initialized empty Git repository in E:/codefield/Python/.Pycharm/notes/.git/
+"
+Git is a version control system.
+Git is free software.
