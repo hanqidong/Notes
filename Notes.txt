@@ -48,3 +48,10 @@ build/
 # 但不包括 doc/server/arch.txt
 
 doc/*.txt
+
+更改完之后需要$commit
+$ git commit 文件名 -m "new change"
+有时候需要重新加载 git add
+git diff 检测有什么变更
+//git add . 指提交目录下的所有文件
+$git commit -m "modified Notes.txt"
