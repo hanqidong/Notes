@@ -70,6 +70,14 @@ git branch -a 查看分支
         add后 修改以 暂存形式 存在在 暂存区 中 不加入分支
         commit 提交后进入 版本库
 
+远程库
+    $ git remote -v 查看远程库
+    $ git remote add origin https://github.com/XXXXXXXXXXXXXX/XXX.git 添加名为 XXXXX的XXX远程库
+    $ git push -u origin master 上传本地名为master的分支
+
+
+
+
 
 
     
