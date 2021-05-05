@@ -55,3 +55,7 @@ $ git commit 文件名 -m "new change"
 git diff 检测有什么变更
 //git add . 指提交目录下的所有文件
 $git commit -m "modified Notes.txt"
+
+git log 查看版本的历史记录，即可看到修改的过的历史记录，及历史说明。
+$ git log --pretty=oneline  只显示一行
+测试
